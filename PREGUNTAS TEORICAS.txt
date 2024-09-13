@@ -1,0 +1,32 @@
+PREGUNTAS TEORICAS
+
+1.
+Un paradigma de programación es un estilo o enfoque de organizar el código para resolver problemas. En otras palabras, es una forma de estructurar y escribir un programa basado en ciertas técnicas y principios. Existen los paradigmas de programación imperativos, donde se encuentran los paradigmas de programación procedimental, la programación orientada a objetos y el enfoque de procesamiento paralelo. Por otro lado, existen los paradigmas de programación declarativos, donde se encuentran los paradigmas de programación lógica, los paradigmas de programación funcional y el enfoque de procesamiento de datos. Cada uno de estos influye en cómo se modelan y se resuelven problemas.
+
+2.
+La programación orientada a objetos es un método para organizar programas modulares y representar el mundo real. Esta se basa en el concepto de agrupar datos y comportamientos relacionados en "objetos". Cada objeto es de un tipo de clase que define sus atributos y métodos. La idea de esta programación es mantener el código ordenado de manera modular, facilitando la reutilización y el mantenimiento del programa.
+
+3.
+En primer lugar, la recursividad es una técnica en la cual la función se llama a sí misma para resolver subproblemas más simples, hasta llegar a un "caso base". Por otro lado, la iteración implica usar bucles como "for" o "while" para repetir una operación un número finito de veces.
+
+En términos de notación Big O, la recursividad puede generar complejidades más elevadas, como códigos de orden O(n) o incluso O(2^n), dependiendo de la optimización del código. La iteración, por otro lado, depende de la cantidad de ciclos involucrados, generalmente obteniendo un orden de O(n) o hasta menor.
+
+4.
+Un rendimiento de O(1) significa que el tiempo de ejecución del algoritmo es independiente del tamaño de la entrada; por ende, siempre se demorará lo mismo, un tiempo constante.
+
+Un rendimiento de O(n) implica que el tiempo de ejecución del algoritmo es lineal y proporcional al tamaño de la entrada.
+
+La gran diferencia está en la eficiencia en tiempo de cada rendimiento. Un rendimiento de O(1) es mucho mejor, ya que es más eficiente y rápido, mientras que un rendimiento de O(n) es más lento a medida que la entrada crece.
+
+5.
+Para calcular el orden de un programa se usa la notación Big O como lenguaje que se utiliza para hablar del tiempo que tarda un algoritmo. Este lenguaje considera la complejidad en función del tamaño de la entrada, la independencia de la máquina, los pasos básicos del ordenador y el tiempo y espacio. Como reglas de esta notación, se tiene que esta ignora las constantes y que los términos están dominados por otros, es decir, tienen un orden de menor a mayor; por ende, si en el programa hay un orden mayor que otro, el mayor prevalecerá como complejidad.
+
+6.
+A diferencia de la notación Big O, para determinar la complejidad temporal de un algoritmo recursivo se utiliza el Teorema Maestro o se resuelve una relación de recurrencia. Por ejemplo, si una función se llama a sí misma dos veces con entradas de tamaño n/2, la recurrencia es T(n) = 2T(n/2) + O(n), y resultaría en O(n log n). Está de más decir que cada análisis depende de la profundidad de la recursión y del trabajo hecho por el algoritmo.
+
+
+
+
+
+
+
